@@ -5,6 +5,7 @@ import {
   PixelRatio,
   PanResponder
 } from 'react-native'
+import PropTypes from 'prop-types';
 
 import {Surface} from 'gl-react-native'
 const {Image: GLImage} = require("gl-react-image")
